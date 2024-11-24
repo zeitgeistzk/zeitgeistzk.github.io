@@ -1,0 +1,62 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+
+
+html {
+
+    font-family: 'Press Start 2P';
+    background-image: url('https://cdn.imgchest.com/files/p7bwcnwdp37.gif');
+    background-size: 90% 110%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #160b17;
+    height: 100%; 
+    display: block;
+    overflow: hidden;
+}
+
+html, body {
+    display:flex;
+    justify-content:center;
+    font-family: 'Press Start 2P';
+    font-size: 1rem;
+    line-height: 2;
+    height: 100%;
+    text-transform: uppercase;
+    
+    
+  }
+
+body {
+  margin-top: 5%;
+}
+
+  .butt {
+    width: 40px;
+    height: 40px;
+}
+
+
+a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #4543bb;
+}
+
+
+.btnR { 
+    content: url(https://cdn.imgchest.com/files/84jdcq86nm4.png);
+    position: relative;
+    opacity: 1;
+    float: right;
+}
+.btnL { 
+    content: url(https://cdn.imgchest.com/files/pyq9comvgg4.png);
+    position: relative;
+    opacity: 1;
+    float: left;
+}
+
+
+  a:hover {
+    color: #d4ca5d;
+  }
